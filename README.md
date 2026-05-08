@@ -1,10 +1,10 @@
-# Bowling Score Detection from Video Using Computer Vision 🎳
+# Bowling Score Detection from Video Using Computer Vision 
 
 A deep learning and computer vision system for detecting, tracking, and scoring bowling pins automatically from recorded bowling videos using YOLOv8 and OpenCV.
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project was developed as part of the DSAI 352 Final Project.
 
@@ -22,7 +22,7 @@ The project simulates a simplified bowling game scenario with multiple throws re
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
 The main goals of this project are:
 
@@ -34,7 +34,7 @@ The main goals of this project are:
 
 ---
 
-# 🧠 Technologies Used
+#  Technologies Used
 
 - Python
 - OpenCV
@@ -46,7 +46,7 @@ The main goals of this project are:
 
 ---
 
-# 🏗️ System Pipeline
+#  System Pipeline
 
 The system follows the following pipeline:
 
@@ -64,7 +64,7 @@ The system follows the following pipeline:
 
 ---
 
-# 📂 Dataset
+#  Dataset
 
 The dataset was collected and managed using Roboflow.
 
@@ -77,7 +77,7 @@ The dataset was automatically downloaded using the Roboflow API.
 
 ---
 
-# 🤖 Model Training
+#  Model Training
 
 The project uses transfer learning with a pretrained YOLOv8 nano model.
 
@@ -96,7 +96,7 @@ The model was fine-tuned on a custom bowling pin dataset.
 
 ---
 
-# 🧩 Pin Tracking Logic
+#  Pin Tracking Logic
 
 To maintain stable pin identities across frames, the system uses:
 
@@ -113,7 +113,7 @@ This improves robustness against:
 
 ---
 
-# 📸 Detection Results
+# Detection Results
 
 ## Bowling Pin Detection
 
@@ -125,7 +125,7 @@ This improves robustness against:
 
 ---
 
-# 🎥 Output Video
+# Output Video
 
 The system generates an annotated output video containing:
 
@@ -140,7 +140,7 @@ Example overlays:
 
 ---
 
-# 🧮 Fall Detection Strategy
+# Fall Detection Strategy
 
 A pin is considered fallen when:
 
@@ -157,7 +157,7 @@ to reduce false positives.
 
 ---
 
-# 📊 Features
+# Features
 
 ✅ Bowling pin detection  
 ✅ Pin tracking  
@@ -169,7 +169,7 @@ to reduce false positives.
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 Bowling-Score-Detection/
@@ -192,7 +192,7 @@ Bowling-Score-Detection/
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 Clone the repository:
 
@@ -208,7 +208,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run the Project
+#  Run the Project
 
 Train model:
 
@@ -229,7 +229,7 @@ python detect.py
 
 ---
 
-# 📈 Evaluation
+# Evaluation
 
 The trained model was evaluated using validation metrics provided by YOLOv8.
 
@@ -240,7 +240,7 @@ Evaluation includes:
 
 ---
 
-# 💡 Challenges
+# Challenges
 
 Some challenges faced during development:
 
@@ -259,7 +259,7 @@ These were handled using:
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 Possible future enhancements:
 
@@ -272,7 +272,7 @@ Possible future enhancements:
 
 ---
 
-# 📄 Project Requirements Satisfaction
+# Project Requirements Satisfaction
 
 This project satisfies the DSAI 352 Final Project requirements by:
 
@@ -285,13 +285,13 @@ This project satisfies the DSAI 352 Final Project requirements by:
 ✅ Displaying final scores  
 
 
-# 📜 License
+#  License
 
 This project is licensed under the MIT License.
 
 ---
 
-# ⭐ Acknowledgements
+# Acknowledgements
 
 Special thanks to:
 
